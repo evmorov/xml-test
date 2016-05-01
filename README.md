@@ -1,7 +1,5 @@
 # XmlTest
 
-Compare different xml parsing libraries.
-
 ## Given
 
 ```xml
