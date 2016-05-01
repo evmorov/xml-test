@@ -1,0 +1,57 @@
+<root>
+  <schools>
+    <school>
+      <id>1</id>
+      <name>First school</name>
+      <emails>
+        <email>f1@mail.com</email>
+        <email>f2@mail.com</email>
+      </emails>
+    </school>
+    <school>
+      <id>2</id>
+      <name>Second school</name>
+      <emails>
+        <email>s1@mail.com</email>
+        <email>s2@mail.com</email>
+      </emails>
+    </school>
+  </schools>
+  <students>
+    <student>
+      <id>5</id>
+      <name>Alex</name>
+      <sex>M</sex>
+      <schoolId>1</schoolId>
+      <contacts>
+        <phone>555</phone>
+      </contacts>
+    </student>
+    <student>
+      <id>6</id>
+      <name>Mark</name>
+      <sex>M</sex>
+      <schoolId>1</schoolId>
+      <contacts>
+        <phone>666</phone>
+      </contacts>
+    </student>
+    <student>
+      <id>7</id>
+      <name>Alex</name>
+      <sex>F</sex>
+      <schoolId>2</schoolId>
+      <contacts>
+        <phone>777</phone>
+      </contacts>
+    </student>
+    <student>
+      <id>8</id>
+      <name>Olivia</name>
+      <sex>F</sex>
+      <schoolId>2</schoolId>
+      <contacts/>
+    </student>
+  </students>
+  <events></events>
+</root>
