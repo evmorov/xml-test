@@ -1,24 +1,30 @@
 # XmlTest
 
-## Given
+## Libraries
+
+1. [Nokogiri](https://github.com/sparklemotion/nokogiri)
+2. [HappyMapper](https://github.com/dam5s/happymapper)
+3. [SAX Machine](https://github.com/pauldix/sax-machine)
+
+## Given xml
 
 ```xml
-<city>
+<root>
   <schools>
     <school>
       <id>1</id>
       <name>First school</name>
       <emails>
-        <email>first1@school.com</email>
-        <email>first2@school.com</email>
+        <email>f1@mail.com</email>
+        <email>f2@mail.com</email>
       </emails>
     </school>
     <school>
       <id>2</id>
       <name>Second school</name>
       <emails>
-        <email>second1@school.com</email>
-        <email>second2@school.com</email>
+        <email>s1@mail.com</email>
+        <email>s2@mail.com</email>
       </emails>
     </school>
   </schools>
@@ -55,11 +61,11 @@
       <name>Olivia</name>
       <sex>F</sex>
       <schoolId>2</schoolId>
+      <contacts/>
     </student>
   </students>
-  <events>
-  </events>
-</city>
+  <events></events>
+</root>
 ```
 
 ## Tasks
@@ -77,12 +83,6 @@
 11. No events
 12. No student with id "9"
 13. Find id of school that starts with the word "Second"
-
-## Libraries
-
-1. [Nokogiri](https://github.com/sparklemotion/nokogiri)
-2. [HappyMapper](https://github.com/dam5s/happymapper)
-3. [SAX Machine](https://github.com/pauldix/sax-machine)
 
 ## Contributing
 
